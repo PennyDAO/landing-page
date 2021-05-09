@@ -8,7 +8,7 @@ const MemberRight = ({title, description, image, name, twitter, instagram, linke
         <div className={styles.container}>
             <div className={styles.imageContainer}>
                 <img src={image} className={styles.image}/>
-                <span className={styles.name}>{name}</span>
+                <h3 className={styles.name}>{name}</h3>
             </div>
             <div className={styles.textContainer}>
                 <h3>{title}</h3>
@@ -49,7 +49,7 @@ const MemberLeft = ({title, description, image, name, twitter, instagram, linked
             </div>
             <div className={styles.imageContainer}>
                 <img src={image} className={styles.image}/>
-                <span className={styles.name}>{name}</span>
+                <h3 className={styles.name}>{name}</h3>
             </div>
         </div>
     );

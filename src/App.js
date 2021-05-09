@@ -26,7 +26,7 @@ const HomePage = () => {
                 <div className='title-container'>
                     <h1 className='landing-page-title'>Where every penny counts</h1>
                     <p className='landing-page-subtitle'>A Marketplace for Impact</p>
-                    <button className='visit-app-button'>Visit App</button>
+                    <button className='visit-app-button'><a href='https://pennydao.github.io/pennyDAO_official/'>Visit App</a></button>
                 </div>
                 <div className='landing-page-image-container'>
                     <LandingAnimation />
@@ -117,7 +117,7 @@ const HomePage = () => {
                     <MemberLeft 
                         title='DAO-Operations & Marketing'
                         description='Peter is a SaaS consultatnt, formerly at Accenture and a Buddhist monk.'
-                        image={Cody}
+                        image={Peter}
                         name='Kota Enokida'
                     />
                     <MemberRight 
