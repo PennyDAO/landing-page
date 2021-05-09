@@ -15,6 +15,9 @@ import Edward from './images/edward_pfp.png';
 import David from './images/david_pfp.png';
 import Cody from './images/cody_pfp.png';
 import Peter from './images/peter_pfp.png';
+import Piggy from './images/piggy.png';
+import Thumbs from './images/thumbs.png';
+import Contract from './images/contract.png';
 
 
 const HomePage = () => {
@@ -36,17 +39,23 @@ const HomePage = () => {
                 <h1>One Purpose: Honest Impact</h1>
                 <div className='why-box-container'>
                     <WhyBox
-                    title='Zero Platform Fees'
-                    description='Every penny counts toward achieving impact and honest change. And our community determines how all funds are distribuited to do that.'
-                    color='#CEAF7F' />
+                        title='Zero Platform Fees'
+                        description='Every penny counts toward achieving impact and honest change. And our community determines how all funds are distribuited to do that.'
+                        color='#CEAF7F' 
+                        image={Piggy}
+                    />
                     <WhyBox
-                    title='Real Student Stories'
-                    description='Our community votes to award grants to individual students. their personal story matters to us, and seeing them succeed feels good.'
-                    color='#BD8733' />
+                        title='Real Student Stories'
+                        description='Our community votes to award grants to individual students. their personal story matters to us, and seeing them succeed feels good.'
+                        color='#BD8733' 
+                        image={Thumbs}
+                    />
                     <WhyBox
-                    title='Proof of Impact'
-                    description='Student stories and grant activity are permaently anchored to the blockchain. Proven impact our community made, verifiable forever.'
-                    color='#A58C6E' />
+                        title='Proof of Impact'
+                        description='Student stories and grant activity are permaently anchored to the blockchain. Proven impact our community made, verifiable forever.'
+                        color='#A58C6E' 
+                        image={Contract}
+                    />
                 </div>
             </div>
             <div className='section-container'>
@@ -118,13 +127,13 @@ const HomePage = () => {
                         title='DAO-Operations & Marketing'
                         description='Peter is a SaaS consultatnt, formerly at Accenture and a Buddhist monk.'
                         image={Peter}
-                        name='Kota Enokida'
+                        name='Peter Upapong'
                     />
                     <MemberRight 
                         title='Project Storyteller'
                         description='David builds resilient brands with story leadership and stakeholder listening.'
                         image={David}
-                        name='Kota Enokida'
+                        name='David All'
                     />
                 </div>
             </div>
