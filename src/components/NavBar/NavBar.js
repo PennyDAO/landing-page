@@ -56,7 +56,7 @@ const NavBar = () => {
                     </a>
                 </li>
             </ul>
-            <Hambuger onClick={() => {setIsOpen(!isOpen); !isOpen ? document.body.style.overflow = 'hidden' : document.body.style.overflow = 'initial';}}/>
+            {/* <Hambuger onClick={() => {setIsOpen(!isOpen); !isOpen ? document.body.style.overflow = 'hidden' : document.body.style.overflow = 'initial';}}/> */}
         </nav>
     )
 }
