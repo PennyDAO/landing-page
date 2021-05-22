@@ -29,7 +29,17 @@ const MobileNavMenu = ({isOpen, onClick}) => {
         <div className={styles.mobileNavMenu} style={{left: isOpen ? 0 : '-100vw'}}>
             <ul>
                 <li>
-                    <a style={{ transition: 'opacity 1.2s ease-out, bottom 0.3s ease-out', opacity: isOpen ? 1 : 0, bottom: isOpen ? 0 : '-100px' }} onClick={onClick} href='https://docs.pennydao.com/'>
+                    <a 
+                        style={{ 
+                            transition: 'opacity 1.2s ease-out, bottom 0.3s ease-out', 
+                            opacity: isOpen ? 1 : 0, 
+                            bottom: isOpen ? 0 : '-100px', 
+                            fontFamily: 'Righteous', 
+                            textDecoration: 'none', color: 'black' 
+                        }} 
+                        href='https://docs.pennydao.com/'
+                        target='_blank'
+                        rel="noreferrer">
                         Docs
                     </a>
                 </li>
@@ -51,11 +61,16 @@ const NavBar = () => {
             <PennyDAOLogo/>
             <ul>
                 <li>
-                    <a href='https://docs.pennydao.com/' target='_blank' style={{textDecoration: 'none', color: 'black'}}>
+                    <a 
+                        href='https://docs.pennydao.com/' 
+                        target='_blank' 
+                        style={{textDecoration: 'none', color: 'black', fontFamily: 'Righteous'}}
+                        rel="noreferrer">
                         Docs
                     </a>
                 </li>
             </ul>
+            <MobileNavMenu isOpen={isOpen}/>
             <Hambuger onClick={() => {setIsOpen(!isOpen); !isOpen ? document.body.style.overflow = 'hidden' : document.body.style.overflow = 'initial';}}/>
         </nav>
     )

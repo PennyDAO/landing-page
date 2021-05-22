@@ -110,30 +110,35 @@ const HomePage = () => {
                         description='Kota is a computer science student at the University of California, Irvine.'
                         image={Cody}
                         name='Kota Enokida'
+                        linkedIn='https://www.linkedin.com/in/codyenokida/'
                     />
                     <MemberLeft
                         title='NFT & Smart Contract Developer'
                         description='Edward is a backend developer at Curve Finance and an actuarial scientist.'
                         image={Edward}
                         name='Edward Amor'
+                        linkedIn='https://www.linkedin.com/in/edwardamor/'
                     />
                     <MemberRight 
                         title='Lead Developer / Dev Team Lead'
                         description='Hanaya is the community lead at DeFi Pulse Index (DPI) and leads our dev.'
                         image={Hanaya}
                         name='Hanaya Barasali'
+                        linkedIn='https://www.linkedin.com/in/hanaya-brasali/'
                     />
                     <MemberLeft 
                         title='DAO-Operations & Marketing'
                         description='Peter is a SaaS consultatnt, formerly at Accenture and a Buddhist monk.'
                         image={Peter}
                         name='Peter Upapong'
+                        linkedIn='https://www.linkedin.com/in/peterupapong/'
                     />
                     <MemberRight 
                         title='Project Storyteller'
                         description='David builds resilient brands with story leadership and stakeholder listening.'
                         image={David}
                         name='David All'
+                        linkedIn='https://www.linkedin.com/in/davidall/'
                     />
                 </div>
             </div>
