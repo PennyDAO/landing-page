@@ -107,7 +107,7 @@ const HomePage = () => {
                 <div className='why-box-container'>
                     <MemberRight 
                         title='Frontend Interface Developer'
-                        description='Kota is a computer science student at the University of California, Irvine.'
+                        description='Kota is a computer science student focusing on Full-Stack Web Development at the University of California, Irvine.'
                         image={Cody}
                         name='Kota Enokida'
                         linkedIn='https://www.linkedin.com/in/codyenokida/'
@@ -128,7 +128,7 @@ const HomePage = () => {
                     />
                     <MemberLeft 
                         title='DAO-Operations & Marketing'
-                        description='Peter is a SaaS consultatnt, formerly at Accenture and a Buddhist monk.'
+                        description='Peter is a strategy consultant, that has led a number of global transformations and technology implementations, former Accenture, battle rapper, and buddhist monk.'
                         image={Peter}
                         name='Peter Upapong'
                         linkedIn='https://www.linkedin.com/in/peterupapong/'
